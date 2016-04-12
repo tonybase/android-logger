@@ -12,7 +12,7 @@ import org.json.JSONObject;
  * 1.控制输出级别
  * 2.控制日志输出长度
  * 3.打印JSON时漂亮输出
- * <p>
+ *
  * Created by Tony on 4/12/16.
  */
 public class ALog {

@@ -5,9 +5,9 @@ import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
 /**
- * @author Tony
- * @email i@tony.wiki
- * @date 2016-04-12 10:13 AM
+ * log util
+ *
+ * Created by Tony on 4/12/16.
  */
 public class LogUtils {
     public final static SimpleDateFormat DATE_FORMATTER = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");

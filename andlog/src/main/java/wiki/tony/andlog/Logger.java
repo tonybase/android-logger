@@ -4,7 +4,7 @@ import android.util.Log;
 
 /**
  * 常规日志，输出到Console中
- * <p/>
+ *
  * Created by Tony on 4/12/16.
  */
 public class Logger {
@@ -68,10 +68,10 @@ public class Logger {
     /**
      * 按级别输出日志到Console中
      *
-     * @param priority
-     * @param msg
-     * @param tr
-     * @return
+     * @param priority 日志级别
+     * @param msg 日志消息
+     * @param tr 异常
+     * @return status
      */
     protected int println(int priority, Object msg, Throwable tr) {
         switch (priority) {

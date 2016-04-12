@@ -6,7 +6,7 @@ import java.lang.reflect.Constructor;
  * 日志工厂，选择日志实现方式
  * 1.常规Console日志输出
  * 2.文件日志输出
- * <p/>
+ *
  * Created by Tony on 4/12/16.
  */
 public class LoggerFactory {

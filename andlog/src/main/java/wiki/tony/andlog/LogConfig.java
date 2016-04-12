@@ -6,7 +6,7 @@ import java.io.File;
 
 /**
  * 日志配置文件
- * <p/>
+ *
  * Created by Tony on 4/12/16.
  */
 public class LogConfig {

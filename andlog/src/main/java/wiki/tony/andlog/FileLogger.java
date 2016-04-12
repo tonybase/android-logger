@@ -10,7 +10,7 @@ import java.io.OutputStreamWriter;
 
 /**
  * 文件日志，按级别保存到文件中
- * <p/>
+ *
  * Created by Tony on 4/12/16.
  */
 public class FileLogger extends Logger {
@@ -24,10 +24,10 @@ public class FileLogger extends Logger {
      * 一般只保存ERROR级别，放到SD卡中
      * 每个文件保存200K log1.txt、log2.txt
      *
-     * @param priority
-     * @param msg
-     * @param tr
-     * @return
+     * @param priority 日志级别
+     * @param msg 日志消息
+     * @param tr 异常
+     * @return status
      */
     @Override
     protected int println(int priority, Object msg, Throwable tr) {
@@ -41,7 +41,7 @@ public class FileLogger extends Logger {
     /**
      * 追加日志
      *
-     * @param msg
+     * @param msg 日志消息
      */
     private void writeLog(String msg) {
         File logFile = getLogFile();
