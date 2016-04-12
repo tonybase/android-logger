@@ -30,8 +30,8 @@ dependencies {
 version = "1.0.0"
 
 // jcenter info
-def siteUrl = 'https://github.com/im-qq/AndLog'   // 项目的主页
-def gitUrl = 'git@github.com:im-qq/AndLog.git'    // Git仓库的url
+def siteUrl = 'https://github.com/im-qq/android-logger'   // 项目的主页
+def gitUrl = 'git@github.com:im-qq/android-logger.git'    // Git仓库的url
 group = "wiki.tony"                               // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
@@ -89,7 +89,7 @@ bintray {
     configurations = ['archives']
     pkg {
         repo = "maven"
-        name = "AndLog"    //发布到JCenter上的项目名字
+        name = "android-logger"    //发布到JCenter上的项目名字
         websiteUrl = siteUrl
         vcsUrl = gitUrl
         licenses = ["Apache-2.0"]
