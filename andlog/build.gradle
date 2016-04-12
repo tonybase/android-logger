@@ -32,7 +32,7 @@ version = "1.0.0"
 // jcenter info
 def siteUrl = 'https://github.com/im-qq/AndLog'   // 项目的主页
 def gitUrl = 'git@github.com:im-qq/AndLog.git'    // Git仓库的url
-group = "wiki.tony.andlog"                        // Maven Group ID for the artifact，一般填你唯一的包名
+group = "wiki.tony"                               // Maven Group ID for the artifact，一般填你唯一的包名
 install {
     repositories.mavenInstaller {
         // This generates POM.xml with proper parameters
