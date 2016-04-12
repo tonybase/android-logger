@@ -1,7 +1,7 @@
 # Android 日志管理
 
 ## 简介
-+ 在程序中输出日志, 使用 GLog、Logger、LoggerFactory 类，用于控制应用全局日志输出级别（默认VERBOSE），以及Pretty输出日志。
++ 在程序中输出日志, 使用 ALog、Logger、LoggerFactory 类，用于控制应用全局日志输出级别（默认VERBOSE），以及Pretty输出日志。
 + 日志级别：VERBOSE、DEBUG、INFO、WARN、ERROR
 + 应用发布时，日志级别设置为INFO，这时只输出INFO、WARN、ERROR三种日志信息。
 
